@@ -1,0 +1,16 @@
+.owner{
+    font-size: 11px;
+    position: absolute;
+    bottom: 9px;
+    color: white;
+    right: 17px;
+    
+}
+@media screen and (max-width:700px) {
+    .owner{
+        color: white;
+        bottom: -1rem;
+        /* right: 53px; */
+        text-align: center;
+    }
+}

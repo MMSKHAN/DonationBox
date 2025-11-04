@@ -1,0 +1,36 @@
+.card{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.3);
+    height: 87vh;
+border: none;
+position: relative;
+}form{
+    width: 100%;
+    /* border: 2px solid rgb(234, 131, 131); */
+border-radius: 8px;
+padding: 2rem;
+}.input{
+    border: none;
+    border-bottom: 2px solid red;
+}.form-label{
+    color: blue;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+@media screen and (max-width:700px) {
+    .card{
+        flex-direction: column;
+        height: fit-content;
+        padding-top: 0.5rem;
+    }.heading{
+        font-size: 1.6rem;
+    }.dis{
+        text-align: justify;
+        text-align: center;
+    }
+}
